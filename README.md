@@ -64,3 +64,12 @@ Collected fields are classified into two sub-categories:
     * Number of Dislikes
     * Video category
     * List of video hashtags
+
+### Important note 
+In order to handle YouTube Data API's tactic that divides the videos of each channel at subsections videos, the collection of the fields mentioned above was completed via the following methods:
+* parse()
+    > Collects the general information of each channel and asks for the list of the uploaded videos by this channel
+* parse_videos()
+    > Iterates over the list and asks for the available information about each video
+* parse_video_stats()
+    > collects the selected fields of each video 
