@@ -41,3 +41,15 @@ The provided web scraper reads as input usernames of Instagram users from:
 - this mechanism scrapes only the videos that were uploaded during the year 2020
 - this mechanism uses multiple API keys in order to achieve a large number of daily requests within the shortest possible time
   > check below how to get a YouTube API key
+### Collected fields 
+Collected fields are classified into two sub-categories:
+* Fields of a YouTube channel:
+    * Channel title
+    * Channel ID
+    * Channel creation date
+    * Total number of views
+    * Number of subscribers
+    * Number of videos
+    * List of channel keywords
+    * Owned by
+      > Male, Female, Business, Other
