@@ -52,4 +52,15 @@ Collected fields are classified into two sub-categories:
     * Number of videos
     * List of channel keywords
     * Owned by
-      > Male, Female, Business, Other
+      > It was manually populated, beacause Instagram does not provide this field
+* Fields of a YouTube video:
+    * Video ID
+    * Video title
+    * Upload date
+    * Video duration
+    * Number of Comments
+    * Number of Views
+    * Number of Likes
+    * Number of Dislikes
+    * Video category
+    * List of video hashtags
