@@ -34,3 +34,10 @@ The provided web scraper reads as input usernames of Instagram users from:
 - a database collection
 - a JSON file
   > located in the "resources" folder
+### Selection criteria for Instagram accounts 
+- the number of subscribers of each channe; must be greater than or equal to 5000 
+- each channel need to be part of the Greek YouTube community 
+- the number of videos during the year 2020 must be greater than or equal to 1
+- this mechanism scrapes only the videos that were uploaded during the year 2020
+- this mechanism uses multiple API keys in order to achieve a large number of daily requests within the shortest possible time
+  > check below how to get a YouTube API key
