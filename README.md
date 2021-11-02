@@ -72,4 +72,10 @@ In order to handle YouTube Data API's tactic that divides the videos of each cha
 * parse_videos()
     > Iterates over the list and asks for the available information about each video
 * parse_video_stats()
-    > collects the selected fields of each video 
+    > Collects the selected fields of each video 
+As it was mentioned above, the mechanism uses multiple YouTube Data API keys that are handled with the following methods:
+* get_active_API()
+    > Selects an API key that has not surpassed its daily requests threshold
+* handle_API_error()
+    > Deactivates an API key that has surpassed its daily requests threshold and selects another that is available
+### How to get a YouTube API key
