@@ -90,3 +90,16 @@ As it was mentioned above, the mechanism uses multiple YouTube Data API keys tha
 8. Copy the API key 
 9. Open the file *"APIkeys.json"*, located in the folder *"resources"*
 10. Paste your API key
+## How to use
+1. Download project
+2. Unzip 
+3. Open the *"spiders"* folder and then open the file *"youtube_spider.py"*
+4. Choose if you want to populate the list "channels_to_scrape" from file or database
+5. Open the file *"pipelines.py"* and update the variables *"myclient"*, *"db"* and *"collection"*, according to the address and the name of your database
+6. Go to the folder *"tools"* and open the file *"documents_finder.py"*, then update the variables *"myclient"*, *"db"* and *"collection"*, according to the address and the name of your database
+7. Go to the folder *"tools"* and open the file *"documents_deleter.py"*, then update the variables *"myclient"*, *"db"* and *"collection"*, according to the address and the name of your database
+8. Open the command line and go the the folder in which the project is located
+9. Run the following command:
+    ```
+    scrapy crawl YouTubeSpider
+    ```
