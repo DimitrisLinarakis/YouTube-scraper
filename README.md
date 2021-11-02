@@ -79,4 +79,14 @@ As it was mentioned above, the mechanism uses multiple YouTube Data API keys tha
     > Selects an API key that has not surpassed its daily requests threshold
 * handle_API_error()
     > Deactivates an API key that has surpassed its daily requests threshold and selects another that is available
-### How to get a YouTube API key
+## How to get a YouTube API key
+1. Log in to Google Developers Console
+2. Create a new project
+3. On the new project dashboard, click Explore & Enable APIs.
+4. In the library, navigate to YouTube Data API v3 under YouTube APIs
+5. Enable the API
+6. Create a credential
+7. A screen will appear with the API key
+8. Copy the API key 
+9. Open the file *"APIkeys.json"*, located in the folder *"resources"*
+10. Paste your API key
